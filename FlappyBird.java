@@ -256,27 +256,6 @@ public class FlappyBird implements ActionListener, MouseListener
 		jump();
 	}
 	
-	@Override
-	public void mouseEntered(MouseEvent e) //ignore
-	{
-		
-	}
-	
-	@Override
-	public void mouseExited(MouseEvent e) //ignore
-	{
-	}
-	
-	@Override
-	public void mousePressed(MouseEvent e) //ignore
-	{
-	}
-	
-	@Override
-	public void mouseReleased(MouseEvent e) //ignore
-	{
-	}
-	
 	public static void main(String[] args) //main method
 	{
 		flappyBird = new FlappyBird();
